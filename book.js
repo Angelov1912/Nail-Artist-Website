@@ -104,6 +104,61 @@ const content = `
     <p>Time: ${expressMani.time}</p>
     <p>What's Included: ${expressMani.included}</p>
     <p>Price: ${expressMani.price}</p>
+
+    <h2>${classicMani.type}</h2>
+    <p>Time: ${classicMani.time}</p>
+    <p>What's Included: ${classicMani.included}</p>
+    <p>Price: ${classicMani.price}</p>
+
+    <h2>${gelMani.type}</h2>
+    <p>Time: ${gelMani.time}</p>
+    <p>What's Included: ${gelMani.included}</p>
+    <p>Price: ${gelMani.price}</p>
+
+    <h2>${luxuryMani.type}</h2>
+    <p>Time: ${luxuryMani.time}</p>
+    <p>What's Included: ${luxuryMani.included}</p>
+    <p>Price: ${luxuryMani.price}</p>
+
+    <h2>${expressPedi.type}</h2>
+    <p>Time: ${expressPedi.time}</p>
+    <p>What's Included: ${expressPedi.included}</p>
+    <p>Price: ${expressPedi.price}</p>
+
+    <h2>${classicPedi.type}</h2>
+    <p>Time: ${classicPedi.time}</p>
+    <p>What's Included: ${classicPedi.included}</p>
+    <p>Price: ${classicPedi.price}</p>
+
+    <h2>${gelPedi.type}</h2>
+    <p>Time: ${gelPedi.time}</p>
+    <p>What's Included: ${gelPedi.included}</p>
+    <p>Price: ${gelPedi.price}</p>
+
+    <h2>${luxuryPedi.type}</h2>
+    <p>Time: ${expressMani.time}</p>
+    <p>What's Included: ${expressMani.included}</p>
+    <p>Price: ${expressMani.price}</p>
+
+    <h2>${luxuryGelPedi.type}</h2>
+    <p>Time: ${luxuryPedi.time}</p>
+    <p>What's Included: ${luxuryPedi.included}</p>
+    <p>Price: ${luxuryPedi.price}</p>
+
+    <h2>${expressManiAndPedi.type}</h2>
+    <p>Time: ${expressManiAndPedi.time}</p>
+    <p>What's Included: ${expressManiAndPedi.included}</p>
+    <p>Price: ${expressManiAndPedi.price}</p>
+
+    <h2>${classicManiAndPedi.type}</h2>
+    <p>Time: ${classicManiAndPedi.time}</p>
+    <p>What's Included: ${classicManiAndPedi.included}</p>
+    <p>Price: ${classicManiAndPedi.price}</p>
+
+    <h2>${gelManiAndPedi.type}</h2>
+    <p>Time: ${gelManiAndPedi.time}</p>
+    <p>What's Included: ${gelMani.included}</p>
+    <p>Price: ${gelManiAndPedi.price}</p>
 `;
 
 const newDiv = document.createElement("div");
